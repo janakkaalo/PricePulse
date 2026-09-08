@@ -1,0 +1,1 @@
+"""PricePulse backend application package."""
