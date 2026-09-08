@@ -1,0 +1,20 @@
+:root { font-family: Inter, system-ui, sans-serif; background: #0b1020; color: #e8ecf8; }
+body { margin: 0; }
+a { color: #7dd3fc; }
+.shell { min-height: 100vh; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #111832; border-bottom: 1px solid #263; }
+.brand { font-weight: 800; font-size: 20px; text-decoration: none; color: #fff; }
+.links { display: flex; gap: 12px; align-items: center; }
+.links a { text-decoration: none; }
+.main { max-width: 960px; margin: 0 auto; padding: 24px; }
+.card { background: #151d3d; border: 1px solid #2a3563; border-radius: 12px; padding: 16px; margin: 8px 0; display: block; }
+.card.narrow { max-width: 420px; margin: 40px auto; }
+.card input { display: block; width: 100%; margin: 8px 0; padding: 10px; border-radius: 8px; border: 1px solid #334; background: #0f1530; color: #fff; }
+button { background: #38bdf8; border: 0; border-radius: 8px; padding: 10px 14px; font-weight: 700; cursor: pointer; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.stat { background: #151d3d; padding: 16px; border-radius: 12px; display: flex; flex-direction: column; }
+.stat b { font-size: 28px; }
+.badge { background: #16a34a; padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+.err { color: #f87171; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+.row input { flex: 1; min-width: 140px; }
