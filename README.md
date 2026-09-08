@@ -87,8 +87,6 @@ SCRAPE_INTERVAL_MINUTES=15
 
 ## Contributing
 
-## Contributing
-
 ### Clone the repo
 
 ```bash
