@@ -1,0 +1,17 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./pricepulse.db
+      - SECRET_KEY=dev-secret-change-me
+      - DISABLE_SCHEDULER=0
+    volumes:
+      - ./data:/code/data
+  web:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
